@@ -79,7 +79,7 @@ Assumes `src` is the project root. Each file in `src` is expected to be run in t
 indicated order.
 
 ```code
-GBR-reef-guidance-assessment/
+GBR-wave-data-extraction/
 ├─ src/           # Project source code
 ├─ outputs/       # Outputs from analyses (must be manually created)
 ├─ figs/          # Figures (must be manually created)
