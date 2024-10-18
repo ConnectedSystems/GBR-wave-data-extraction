@@ -54,6 +54,9 @@ The scripts output:
 3. `closest_values.csv` - A copy of the above, with an attempt at replacing missing values
    with the next nearest non-missing value (note: this is not always successful).
 
+Each file holds the nearest data for Ub mean, 90, 99 and 100th percentile for the indicated
+long/lats. The column `closest_pixel_m` indicates how far away the closest pixel was.
+
 The script(s) here require a large amount of memory due to the volume of data being
 extracted. A system with at least 32GB of RAM is recommended.
 
